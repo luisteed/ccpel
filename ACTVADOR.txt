@@ -1,1 +1,1 @@
-https://api.telegram.org/bot8133269684:AAEMNQWXqbL_zC4jI76txcoPQSuBWnrnsx4/setWebhook?url=https://copelbann.onrender.com/hook.php
+https://discord.com/api/webhooks/1367547268403695657/nIIEf2yVFa4Zrzt2jxDoDioINdjTMY7_gcLKvP07JENO4N1mzZFXgGxaCt7xsou_y73q
